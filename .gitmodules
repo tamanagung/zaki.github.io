@@ -1,0 +1,4 @@
+[submodule "zaki.github.io"]
+	path = zaki.github.io
+	url = https://github.com/tamanagung/zaki.github.io.git
+	branch = master
