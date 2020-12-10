@@ -1,0 +1,65 @@
+baseurl = "https://example.com"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "Hugo Theme Dream"
+theme = "hugo-theme-dream"
+
+# copyright = ""
+
+# googleAnalytics = ""
+
+# disqusShortname = ""
+
+# enableRobotsTXT = true
+
+[params]
+  background = "black"
+  # backgroundImage = "/me/background.jpg"
+  linkColor = "seagreen"
+
+  author = "Yue Yang"
+  # description = ""
+  avatar = "/img/avatar.jpg"
+  motto = "Motto"
+  # categoriesLimitInHeader = 6
+  # headerBottomText = ""
+
+  # rss = true
+
+  # utterancesRepo = ""
+
+  # valine = true
+  # LEANCLOUD_APP_ID = ""
+  # LEANCLOUD_APP_KEY = ""
+  
+  email = "g1enyy0ung@gmail.com"
+  # twitter = ""
+  # facebook = ""
+  # instagram = ""
+  # mastodon = ""
+  # linkedin = ""
+  # github = ""
+  # stackoverflow = ""
+  # codepen = ""
+
+  siteStartYear = 2016
+
+  # favicon = "/favicon.ico"
+
+  # highlightjs = true
+  # highlightjsCDN = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"
+  # highlightjsExtraLanguages = ["ocaml"]
+  # highlightjsTheme = "gruvbox-light"
+  # highlightjsThemeDark = "gruvbox-dark"
+
+  # search
+  # enableSearch = true
+
+  # options
+  # showSummaryCoverInPost = true
+  # hasTwitterEmbed = true
+
+  # dark mode
+  darkLinkColor = "darkseagreen"
+  darkNav = true 
+  dark404 = true

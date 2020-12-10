@@ -1,7 +1,7 @@
 baseURL = "https://master.d35gu38ocaxg95.amplifyapp.com/"
 languageCode = "en-us"
 title = "Hi, My Name Is Zaqi"
-theme ="hello-friend"
+theme ="dream"
 defaultTheme = "dark"
 paginate     = 10
 

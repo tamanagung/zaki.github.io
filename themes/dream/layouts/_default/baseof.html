@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>{{ block "title" . }} {{- T "home" -}} {{ end }} | {{ .Site.Title }}</title>
+
+    {{ partial "head.html" . }}
+    {{ block "css" . }} {{ end }}
+  </head>
+
+  <body class="default">
+    {{ partial "nav.html" . }}
+    <div class="flip-container">
+      <div class="flipper">
+        <section class="front">
+          <div class="dream-max-width">
+            {{ block "main" . }} {{ end }}
+          </div>
+        </section>
+        <section class="back">
+          <div class="dream-max-width">
+            {{ partial "back.html" . }}
+          </div>
+        </section>
+      </div>
+    </div>
+
+    {{ partial "footer.html" . }}
+    {{ block "js" . }} {{ end }}
+
+    {{ if .Site.Params.enableSearch }}
+      {{ partial "search.html" . }}
+    {{ end }}
+
+    {{ if .Site.GoogleAnalytics }}
+      {{ template "_internal/google_analytics_async.html" . }}
+    {{ end }}
+  </body>
+</html>
