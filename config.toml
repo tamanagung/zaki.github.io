@@ -1,0 +1,35 @@
+baseURL = "https://main.d3ge7ay1fadnw4.amplifyapp.com/"
+languageCode = "en-us"
+title = "Hi, My Name Is Zaqi"
+theme ="hello-friend"
+defaultTheme = "dark"
+paginate     = 10
+
+[[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+[[menu.main]]
+    identifier = "post"
+    name       = "Post"
+    url        = "/posts"
+
+
+
+# sosial icons
+
+[[params.social]]
+  name = "youtube"
+  url = "https://www.youtube.com/channel/UCi7TMQDz0htxL4P-PDd1jIg"
+[[params.social]]
+  name = "email"
+  url = "mailto:ibnuzacxyy@gmail.com"
+[[params.social]]
+  name = "github"
+  url = "https://github.com/zaqi-design"
+[[params.social]]
+  name = "instagram"
+  url = "https://www.instagram.com/zacxyy_ibnu"
+[[params.social]]
+  name = "facebook"
+  url = "https://www.facebook.com/djaki.ibnu/"

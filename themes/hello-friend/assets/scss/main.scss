@@ -1,0 +1,32 @@
+/* Must be loaded before everything else */
+@import "normalize";
+@import "prism";
+/* Main stuff */
+@import "variables";
+@import "mixins";
+@import "fonts";
+@import "buttons";
+/* Modules */
+@import "header";
+@import "logo";
+@import "menu";
+@import "main";
+@import "list";
+@import "single";
+@import "footer";
+@import "sharing-buttons";
+img[src$='#center']{
+  display: block;
+  margin: 0.7rem auto; /* you can replace the vertical '0.7rem' by
+                            whatever floats your boat, but keep the
+                            horizontal 'auto' for this to work */
+  /* whatever else styles you fancy here */
+ }
+img[src$='#floatleft']{
+    float:left;
+    margin: 0.7rem;
+}
+img[src$='#floatright']{
+    float:right;
+    margin: 0.7rem;
+}
