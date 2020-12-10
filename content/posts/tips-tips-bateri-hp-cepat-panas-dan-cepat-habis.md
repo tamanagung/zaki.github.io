@@ -1,7 +1,7 @@
 ---
 title: "Tips-Tips Mengatasi Bateri Hp Cepat Panas Dan Cepat Habis"
 date: 2020-12-06T10:48:09+07:00
-draft: true
+draft: false
 toc: false
 images:
 tags:
