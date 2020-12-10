@@ -1,7 +1,7 @@
 ---
 title: "Tips-Tips Memilih Hp Gaming"
 date: 2020-12-06T09:58:39+07:00
-draft: true
+draft: false
 toc: false
 images:
 tags:
