@@ -1,7 +1,7 @@
 ---
 title: "5 Rekomendasi Hp Gaming 2 Jutaan"
 date: 2020-12-04T13:26:52+07:00
-draft: true
+draft: false
 toc: false
 images:
 tags:
