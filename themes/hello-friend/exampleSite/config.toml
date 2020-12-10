@@ -114,7 +114,14 @@ disableHugoGeneratorInject = false
     # logoCursorColor    = "#67a2c9"
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
     # logoCursorAnimate  = "2s"
-
+    [[menu.main]]
+        identifier = "about"
+        name       = "About"
+        url        = "/about/"
+    [[menu.main]]
+        identifier = "post"
+        name       = "Post"
+        url        = "/posts/"
   # Uncomment this if you want a portrait on your start page
   #
   # [params.portrait]

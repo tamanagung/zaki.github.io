@@ -1,18 +1,18 @@
 baseURL = "https://master.d35gu38ocaxg95.amplifyapp.com/"
 languageCode = "en-us"
 title = "Hi, My Name Is Zaqi"
-theme ="porto"
+theme ="hello-friend"
 defaultTheme = "dark"
 paginate     = 10
 
 [[menu.main]]
     identifier = "about"
     name       = "About"
-    url        = "/about"
+    url        = "/about/"
 [[menu.main]]
     identifier = "post"
     name       = "Post"
-    url        = "/posts"
+    url        = "/posts/"
 
 
 
