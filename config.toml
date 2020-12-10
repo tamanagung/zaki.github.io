@@ -8,11 +8,11 @@ paginate     = 10
 [[menu.main]]
     identifier = "about"
     name       = "About"
-    url        = "/about/"
+    url        = "/about"
 [[menu.main]]
     identifier = "post"
     name       = "Post"
-    url        = "/posts/"
+    url        = "/posts"
 
 
 
